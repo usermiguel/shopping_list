@@ -92,6 +92,18 @@
       "languageVersion": "2.10"
     },
     {
+      "name": "flutter_auth_buttons",
+      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_auth_buttons-0.10.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
+      "name": "flutter_custom_clippers",
+      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_custom_clippers-1.1.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
       "name": "flutter_launcher_icons",
       "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_launcher_icons-0.8.1",
       "packageUri": "lib/",
@@ -302,7 +314,7 @@
       "languageVersion": "2.7"
     }
   ],
-  "generated": "2021-03-01T04:07:01.623447Z",
+  "generated": "2021-03-01T09:02:38.038552Z",
   "generator": "pub",
   "generatorVersion": "2.10.5"
 }

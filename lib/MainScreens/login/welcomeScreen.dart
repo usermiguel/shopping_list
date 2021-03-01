@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:shopping_list/MainScreens/login/loginScreen.dart';
 import 'package:shopping_list/Utils/TextApp.dart';
+import 'package:shopping_list/Widgets/Components/Buttons/myLoginButton.dart';
 import 'package:shopping_list/Widgets/Design/DesignWidgets.dart';
 
 class WelcomeScreen extends StatefulWidget {
@@ -25,7 +27,8 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 DesignWidgets.titleCustom(),
-                _loginButton(context),
+                MyLoginButton(TextApp.LOGIN, Theme.of(context).primaryColor,
+                    Colors.white, LoginScreen()),
                 _singUpButton(context)
               ],
             ),
@@ -33,28 +36,6 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
         ),
       ),
     );
-  }
-
-  _loginButton(BuildContext context) {
-    return Container(
-        padding: EdgeInsets.only(top: 50.00, bottom: 25),
-        width: double.infinity,
-        child: RaisedButton(
-          elevation: 5.0,
-          onPressed: () => print('Boton iniciar sesion pulsado'),
-          padding: EdgeInsets.all(15.00),
-          shape:
-              RoundedRectangleBorder(borderRadius: BorderRadius.circular(5.0)),
-          color: Colors.white,
-          child: Text(
-            TextApp.LOGIN,
-            style: TextStyle(
-                color: Theme.of(context).primaryColor,
-                letterSpacing: 1.5,
-                fontSize: 18.0,
-                fontWeight: FontWeight.bold),
-          ),
-        ));
   }
 
   _singUpButton(BuildContext context) {
