@@ -4,12 +4,15 @@ import 'package:shopping_list/MainScreens/login/loginScreen.dart';
 import 'package:shopping_list/Utils/TextApp.dart';
 
 class MyLoginButton extends StatelessWidget {
-  String _text;
-  Color _colorText;
-  Color _colorButtonBackground;
-  Widget _widgetToNavigate;
-  MyLoginButton(this._text, this._colorText, this._colorButtonBackground,
-      this._widgetToNavigate);
+  String text;
+  Color colorText;
+  Color colorButtonBackground;
+  Widget widgetToNavigate;
+  MyLoginButton(
+      {this.text,
+      this.colorText,
+      this.colorButtonBackground,
+      this.widgetToNavigate});
 
   @override
   Widget build(BuildContext context) {
@@ -19,15 +22,15 @@ class MyLoginButton extends StatelessWidget {
         child: RaisedButton(
           elevation: 5.0,
           onPressed: () => Navigator.push(context,
-              MaterialPageRoute(builder: (context) => _widgetToNavigate)),
+              MaterialPageRoute(builder: (context) => widgetToNavigate)),
           padding: EdgeInsets.all(15.00),
           shape:
               RoundedRectangleBorder(borderRadius: BorderRadius.circular(5.0)),
-          color: _colorButtonBackground,
+          color: colorButtonBackground,
           child: Text(
-            _text,
+            text,
             style: TextStyle(
-                color: _colorText,
+                color: colorText,
                 letterSpacing: 1.5,
                 fontSize: 18.0,
                 fontWeight: FontWeight.bold),
