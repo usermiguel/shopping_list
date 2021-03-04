@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "964048529900",
+    "project_id": "shoppingpan-3ac51",
+    "storage_bucket": "shoppingpan-3ac51.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:964048529900:android:773af1a043b6c57617b8c9",
+        "android_client_info": {
+          "package_name": "com.example.shopping_list"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "964048529900-qpns36od0sh46asj8e2pvuddquc30jdm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDImrdWT0rcVb_Y26RxQBHUVcgEzubrgL0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "964048529900-qpns36od0sh46asj8e2pvuddquc30jdm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

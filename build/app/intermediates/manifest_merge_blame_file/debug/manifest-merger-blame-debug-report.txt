@@ -26,7 +26,7 @@
 23        android:name="io.flutter.app.FlutterApplication"
 23-->C:\Users\Miguel\Desktop\Shopping\shopping_list\android\app\src\main\AndroidManifest.xml:9:9-57
 24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-24-->[androidx.core:core:1.1.0] C:\Users\Miguel\.gradle\caches\transforms-2\files-2.1\a528b13ac93e64cafa3d0480e2c93207\core-1.1.0\AndroidManifest.xml:24:18-86
+24-->[androidx.core:core:1.1.0] C:\Users\Miguel\.gradle\caches\transforms-2\files-2.1\3e26ef26d15f163a2f1a31a2130a0254\core-1.1.0\AndroidManifest.xml:24:18-86
 25        android:debuggable="true"
 26        android:icon="@mipmap/launcher_icon"
 26-->C:\Users\Miguel\Desktop\Shopping\shopping_list\android\app\src\main\AndroidManifest.xml:11:9-45
@@ -94,6 +94,52 @@
 67-->C:\Users\Miguel\Desktop\Shopping\shopping_list\android\app\src\main\AndroidManifest.xml:44:13-44
 68            android:value="2" />
 68-->C:\Users\Miguel\Desktop\Shopping\shopping_list\android\app\src\main\AndroidManifest.xml:45:13-30
-69    </application>
-70
-71</manifest>
+69
+70        <service
+70-->[:firebase_core] C:\Users\Miguel\Desktop\Shopping\shopping_list\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+71            android:name="com.google.firebase.components.ComponentDiscoveryService"
+71-->[:firebase_core] C:\Users\Miguel\Desktop\Shopping\shopping_list\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-89
+72            android:directBootAware="true"
+72-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Miguel\.gradle\caches\transforms-2\files-2.1\aca2d135f20ae95dab943bce92a7fd3f\jetified-firebase-common-19.5.0\AndroidManifest.xml:35:13-43
+73            android:exported="false" >
+73-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Miguel\.gradle\caches\transforms-2\files-2.1\aca2d135f20ae95dab943bce92a7fd3f\jetified-firebase-common-19.5.0\AndroidManifest.xml:36:13-37
+74            <meta-data
+74-->[:firebase_core] C:\Users\Miguel\Desktop\Shopping\shopping_list\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+75                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+75-->[:firebase_core] C:\Users\Miguel\Desktop\Shopping\shopping_list\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
+76                android:value="com.google.firebase.components.ComponentRegistrar" />
+76-->[:firebase_core] C:\Users\Miguel\Desktop\Shopping\shopping_list\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+77            <!--
+78                This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
+79                clients to use it as well, by defining this registrar in their own core/common library.
+80            -->
+81            <meta-data
+81-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Miguel\.gradle\caches\transforms-2\files-2.1\aca2d135f20ae95dab943bce92a7fd3f\jetified-firebase-common-19.5.0\AndroidManifest.xml:43:13-45:85
+82                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
+82-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Miguel\.gradle\caches\transforms-2\files-2.1\aca2d135f20ae95dab943bce92a7fd3f\jetified-firebase-common-19.5.0\AndroidManifest.xml:44:17-121
+83                android:value="com.google.firebase.components.ComponentRegistrar" />
+83-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Miguel\.gradle\caches\transforms-2\files-2.1\aca2d135f20ae95dab943bce92a7fd3f\jetified-firebase-common-19.5.0\AndroidManifest.xml:45:17-82
+84        </service>
+85
+86        <provider
+86-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Miguel\.gradle\caches\transforms-2\files-2.1\aca2d135f20ae95dab943bce92a7fd3f\jetified-firebase-common-19.5.0\AndroidManifest.xml:26:9-31:39
+87            android:name="com.google.firebase.provider.FirebaseInitProvider"
+87-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Miguel\.gradle\caches\transforms-2\files-2.1\aca2d135f20ae95dab943bce92a7fd3f\jetified-firebase-common-19.5.0\AndroidManifest.xml:27:13-77
+88            android:authorities="com.example.shopping_list.firebaseinitprovider"
+88-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Miguel\.gradle\caches\transforms-2\files-2.1\aca2d135f20ae95dab943bce92a7fd3f\jetified-firebase-common-19.5.0\AndroidManifest.xml:28:13-72
+89            android:directBootAware="true"
+89-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Miguel\.gradle\caches\transforms-2\files-2.1\aca2d135f20ae95dab943bce92a7fd3f\jetified-firebase-common-19.5.0\AndroidManifest.xml:29:13-43
+90            android:exported="false"
+90-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Miguel\.gradle\caches\transforms-2\files-2.1\aca2d135f20ae95dab943bce92a7fd3f\jetified-firebase-common-19.5.0\AndroidManifest.xml:30:13-37
+91            android:initOrder="100" />
+91-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Miguel\.gradle\caches\transforms-2\files-2.1\aca2d135f20ae95dab943bce92a7fd3f\jetified-firebase-common-19.5.0\AndroidManifest.xml:31:13-36
+92
+93        <meta-data
+93-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Miguel\.gradle\caches\transforms-2\files-2.1\1d1c05fbcc3a2cb83c31924dd869d6ab\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+94            android:name="com.google.android.gms.version"
+94-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Miguel\.gradle\caches\transforms-2\files-2.1\1d1c05fbcc3a2cb83c31924dd869d6ab\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+95            android:value="@integer/google_play_services_version" />
+95-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Miguel\.gradle\caches\transforms-2\files-2.1\1d1c05fbcc3a2cb83c31924dd869d6ab\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+96    </application>
+97
+98</manifest>
