@@ -18,12 +18,12 @@ class DesignWidgets {
     return RichText(
       textAlign: TextAlign.center,
       text: TextSpan(
-          text: 'Shopping',
+          text: 'Mejor llame a ',
           style: GoogleFonts.portLligatSans(
               fontSize: 30, fontWeight: FontWeight.w700, color: Colors.white60),
           children: [
             TextSpan(
-                text: "List",
+                text: "Saul",
                 style: TextStyle(color: Colors.white, fontSize: 30)),
           ]),
     );
@@ -33,12 +33,12 @@ class DesignWidgets {
     return RichText(
       textAlign: TextAlign.center,
       text: TextSpan(
-          text: 'Shopping',
+          text: 'Mejor llame a ',
           style: GoogleFonts.portLligatSans(
               fontSize: 30, fontWeight: FontWeight.w700, color: Colors.grey),
           children: [
             TextSpan(
-                text: "List",
+                text: "Saul",
                 style: TextStyle(color: Colors.black, fontSize: 30)),
           ]),
     );

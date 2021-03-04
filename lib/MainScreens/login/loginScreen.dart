@@ -1,9 +1,12 @@
+import 'dart:developer';
+
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_auth_buttons/flutter_auth_buttons.dart';
 import 'package:shopping_list/MainScreens/homeScreen.dart';
 import 'package:shopping_list/MainScreens/login/signUP.dart';
+import 'package:shopping_list/Utils/LoginGoogleUtils.dart';
 import 'package:shopping_list/Utils/TextApp.dart';
 import 'package:shopping_list/Widgets/Components/Buttons/MyBackButton.dart';
 import 'package:shopping_list/Widgets/Components/Buttons/myLoginButton.dart';
@@ -131,7 +134,21 @@ class _LoginScreenState extends State<LoginScreen> {
                       child: GoogleSignInButton(
                         centered: true,
                         borderRadius: 5,
-                        onPressed: () {},
+                        onPressed: () {
+                          LoginGoogleUtils().signInWithGoogle().then((user) {
+                            if (user != null) {
+                              Navigator.of(context).push(
+                                MaterialPageRoute(
+                                  builder: (context) {
+                                    return HomeScreen();
+                                  },
+                                ),
+                              );
+                            } else {
+                              log("loginScreen build()ERROR user viene nulo");
+                            }
+                          });
+                        },
                         darkMode: false,
                         text: TextApp.GOOGLE_SIGN,
                       ),

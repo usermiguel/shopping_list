@@ -17,6 +17,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primaryColor: Color(0xffff7043),
         primaryColorLight: Color(0xffffa270),
@@ -38,6 +39,7 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   //init
+
   final Future<FirebaseApp> _initializationFirebase = Firebase.initializeApp();
   static const String TAG = "Main";
   @override

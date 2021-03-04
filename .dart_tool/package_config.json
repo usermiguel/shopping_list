@@ -86,6 +86,24 @@
       "languageVersion": "2.2"
     },
     {
+      "name": "firebase_auth",
+      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_auth-0.20.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
+      "name": "firebase_auth_platform_interface",
+      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_auth_platform_interface-3.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
+      "name": "firebase_auth_web",
+      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_auth_web-0.3.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
       "name": "firebase_core",
       "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core-0.7.0",
       "packageUri": "lib/",
@@ -144,6 +162,24 @@
       "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/google_fonts-1.1.2",
       "packageUri": "lib/",
       "languageVersion": "2.3"
+    },
+    {
+      "name": "google_sign_in",
+      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in-4.5.9",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
+      "name": "google_sign_in_platform_interface",
+      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in_platform_interface-1.1.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
+      "name": "google_sign_in_web",
+      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in_web-0.9.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.6"
     },
     {
       "name": "http",
@@ -350,7 +386,7 @@
       "languageVersion": "2.7"
     }
   ],
-  "generated": "2021-03-03T22:11:07.962672Z",
+  "generated": "2021-03-04T21:01:54.554428Z",
   "generator": "pub",
   "generatorVersion": "2.10.5"
 }
