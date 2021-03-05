@@ -44,4 +44,9 @@ class LoginGoogleUtils {
     }
     return null;
   }
+
+  Future<void> signOutGoogle() async {
+    await googleSignIn.signOut();
+    log(TAG + ',User signed Out, Google');
+  }
 }
